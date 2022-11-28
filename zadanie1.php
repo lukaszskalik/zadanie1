@@ -16,7 +16,8 @@
 
     $getTime = explode(" ", $getTime);
 
-    foreach ($getTime as $value) {
+    foreach ($getTime as $value) 
+    {
         if (strlen($value)>=2) {
             $time[] =  $value;
         }
