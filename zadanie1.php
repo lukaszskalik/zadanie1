@@ -95,7 +95,6 @@
     $data[1][] = $state;
     $data[1][] = $zip;
     $data[1][] = getData('location_phone');
-var_dump($data);
 
 function floatvalue($val){
     $val = str_replace(",",".",$val);
