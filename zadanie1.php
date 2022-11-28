@@ -35,9 +35,6 @@
     $data[1][] = floatvalue($nte);
     $data[1][] = getData('location_name');
 
-    $data2[0][] = getData('location_name');
-    $data2[0][] = getData('location_phone');
-
     $address = getData('location_address');
     $address = explode(" ", $address);
 
